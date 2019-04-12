@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "schedule": "0 */1 * * * *",
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "sendGrid",
+      "direction": "out",
+      "apiKey": "MySendGridKey",
+      "to": "david@xirus.com.au",
+      "from": "david@xirus.com.au",
+      "subject": "Azure VPN connection status"
+    }
+  ]
+}

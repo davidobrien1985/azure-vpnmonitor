@@ -1,0 +1,7 @@
+{
+  "name": "vpnstatus",
+  "version": "1.0.0",
+  "dependencies": {
+    "azure-arm-network": "^11.1.0"
+  }
+}
